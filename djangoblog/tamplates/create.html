@@ -1,0 +1,36 @@
+{% extends 'base.html' %}
+
+{% load static %}
+
+{% block title %}  {% endblock %}
+
+
+{% block style_sheet %} {% endblock %}
+
+{% block profile %}  {% endblock %}
+
+{% block contain %}
+<h2> create page</h2>
+
+
+
+
+
+
+<div class="container-fluid">
+	
+	<form action="" method="POST" enctype="multipart/form-data">
+		{% csrf_token %}
+		{{ form.as_p }}
+		<button class="btn btn-success" >Submit</button>
+	</form>
+</div>
+
+ {% endblock %}
+
+
+{% block javascript  %}  {% endblock %}
+
+
+
+
