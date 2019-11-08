@@ -25,7 +25,7 @@ SECRET_KEY = '&m5(1p5$_z67ra@4ubjv2r&8o0=n!7i9@t@gd(@0pfkx#t0)vy'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['192.168.0.110','localhost','103.58.74.142','127.0.0.1','young-swan-20.localtunnel.me']
 
 
 # Application definition
